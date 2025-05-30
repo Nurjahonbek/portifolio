@@ -43,7 +43,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} className='w-14 h-14 object-contain' />
           <p className='text-[#915EFF] text-[18px] font-bold cursor-pointer flex '>
             Nurjahon &nbsp;
           </p>

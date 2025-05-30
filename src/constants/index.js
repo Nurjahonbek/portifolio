@@ -22,7 +22,7 @@ import {
   tailwind,
   firstTestimonial,
   secondTestimonial,
-  thirdTestimonial,
+  // thirdTestimonial,
 } from '../assets'
 
 
