@@ -22,7 +22,7 @@ import {
   tailwind,
   firstTestimonial,
   secondTestimonial,
-  // thirdTestimonial,
+  invoices
 } from '../assets'
 
 
@@ -120,38 +120,12 @@ const experiences = [
   },
 ];
 
-// const testimonials = [
-//   {
-//     testimonial:
-//       "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-//     name: "MD Mustaqeem",
-//     designation: "Ecommerce",
-//     company: "QuickMart",
-//     image: firstTestimonial,
-//   },
-//   {
-//     testimonial:
-//       "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-//     name: "Abdul Raheman",
-//     designation: "Ecommerce Business",
-//     company: "justbuyz",
-//     image: secondTestimonial,
-//   },
-//   {
-//     testimonial:
-//       "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-//     name: "James Wang",
-//     designation: "CTO",
-//     company: "456 Enterprises",
-//     image: thirdTestimonial,
-//   },
-// ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Invoices",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Invoices App is a modern web application that allows users to easily create, manage, and track professional invoices. Designed to streamline the invoicing process.",
     tags: [
       {
         name: "react",
@@ -165,13 +139,9 @@ const projects = [
         name: "node",
         color: "pink-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
 
     ],
-    image: project2,
+    image: invoices,
     source_code_link: "https://github.com/",
   },
   {
