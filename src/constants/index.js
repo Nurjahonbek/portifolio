@@ -8,8 +8,6 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
   project3,
   mui,
 
@@ -22,7 +20,8 @@ import {
   tailwind,
   firstTestimonial,
   secondTestimonial,
-  invoices
+  invoices,
+  nike
 } from '../assets'
 
 
@@ -53,10 +52,6 @@ const services = [
     title: "Frontend Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Frontend Developer",
-  //   icon: web,
-  // },
   {
     title: "Ui UX Designer",
     icon: creator,
@@ -145,9 +140,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "GearXpert",
+    name: "Nike Shop",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Nike Shop is the ultimate destination for high-quality sportswear and accessories. Whether you're a fitness enthusiast or a professional athlete, find everything you need for training, running, or everyday performance.",
     tags: [
       {
         name: "react",
@@ -157,12 +152,8 @@ const projects = [
         name: "emailJs",
         color: "green-text-gradient",
       },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
     ],
-    image: gearXpert,
+    image: nike,
     source_code_link: "https://github.com/",
   },
   {
