@@ -37,7 +37,7 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Nurjahon",
+          to_name: "N",
           from_email: form.email,
           to_email: "nurjahonbekweb@gmail.com",
           message: form.message,
@@ -47,7 +47,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          // alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -59,7 +59,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          // alert("Ahh, something went wrong. Please try again.");
         }
       )
       .finally(() => {
